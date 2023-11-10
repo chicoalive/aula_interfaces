@@ -21,10 +21,10 @@ public class Programa {
         System.out.println("Digite os dados para aluguel do carro: ");
         System.out.print("Modelo do veiculo: ");
         String modelo = teclado.nextLine();
-        System.out.print("Qual a data da retirada do veiculo (dd/MM/yyyy hh:mm: ");
+        System.out.print("Qual a data da retirada do veiculo: dd/MM/yyyy hh:mm: ");
         // Quando forem datas, devemos usar o LocalDateTime!
         LocalDateTime comeco = LocalDateTime.parse(teclado.nextLine(), fmt);
-        System.out.print("Qual a data da entrega do veiculo (dd/MM/yyyy hh:mm: ");
+        System.out.print("Qual a data da entrega do veiculo: dd/MM/yyyy hh:mm: ");
         // Quando forem datas, devemos usar o LocalDateTime!
         LocalDateTime fim = LocalDateTime.parse(teclado.nextLine(), fmt);
 

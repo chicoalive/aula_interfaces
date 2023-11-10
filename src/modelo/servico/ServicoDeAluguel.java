@@ -10,7 +10,7 @@ public class ServicoDeAluguel {
     private Double precoPorDia;
 
     // Associações
-    private BrazilTaxaServico taxaServico;
+    private TaxaServico taxaServico;
 
     // Construtor
     public ServicoDeAluguel(Double precoPorHora, Double preçoPorDia, BrazilTaxaServico taxaServico) {
@@ -28,7 +28,7 @@ public class ServicoDeAluguel {
         return precoPorDia;
     }
 
-    public BrazilTaxaServico getTaxaServico() {
+    public TaxaServico getTaxaServico() {
         return taxaServico;
     }
 

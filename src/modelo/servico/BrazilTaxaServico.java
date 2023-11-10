@@ -1,6 +1,8 @@
 package modelo.servico;
 
-public class BrazilTaxaServico {
+public class BrazilTaxaServico implements TaxaServico {
+    
+    // Preciso dizer que o Brazil Taxa ira implementar a interface taxa
 
     public double taxa(double quantidade) {
         if (quantidade <= 100) {
